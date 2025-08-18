@@ -1,7 +1,25 @@
+
+# Airflow
+logs/
+plugins/
+airflow.db
+airflow.cfg
+unittests.cfg
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.pkl
-.vscode/
-.env
-*.log
 
+# Environment
+.env
+venv/
+*.sqlite
+*.db
+
+# Docker
+*.pid
+*.log
+*.sock
